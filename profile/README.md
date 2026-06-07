@@ -1,4 +1,3 @@
-# .github
 # Rastreador de Habitos
 
 Projeto de portfólio desenvolvido para praticar arquitetura de microsserviços com Java e Spring Boot. O sistema permite que usuários criem hábitos, registrem check-ins diários e acompanhem sequências de dias consecutivos.
