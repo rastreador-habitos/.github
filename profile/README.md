@@ -7,8 +7,8 @@ Projeto de portfólio desenvolvido para praticar arquitetura de microsserviços 
 ```mermaid
 graph TD
     A[Frontend<br/>HTML / CSS / JS] -->|HTTP :8082| B[bff-habitos<br/>Spring Boot]
-    B -->|Feign :8080| C[usuario<br/>Spring Boot]
-    B -->|Feign :8081| D[habitos<br/>Spring Boot]
+    B -->|Feign :8080| C[usuario<br/>Maven]
+    B -->|Feign :8081| D[habitos<br/>Gradle]
     C --> E[(PostgreSQL)]
     D --> F[(MongoDB)]
 ```
